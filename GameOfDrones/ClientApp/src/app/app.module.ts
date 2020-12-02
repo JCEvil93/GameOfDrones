@@ -3,12 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
-import { MatButtonModule } from '@angular/material';
+import { MatButtonModule, MatDialogModule, MatInputModule, MatDialog, MatIconModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
+import { ModalComponent } from './Modal/modal.component'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -16,7 +17,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppComponent,
     NavMenuComponent,
     HomeComponent,
-    FetchDataComponent
+    FetchDataComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -27,9 +29,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
       { path: 'fetch-data', component: FetchDataComponent },
     ]),
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDialogModule,
+    MatInputModule,
+    MatIconModule
   ],
   providers: [],
+  entryComponents: [ModalComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
