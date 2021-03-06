@@ -1,28 +1,6 @@
 ﻿<h1 mat-dialog-title>You are now playing game of drones</h1>
 <div mat-dialog-content id="container">
-    <div class="initialSetUp">
-        <p>Please tell us the name of the people playing</p>
-        <div class = "playersNameWrapper">
-            <mat-form-field>
-                <mat-label>
-                    <mat-icon class="material-icons">
-                        videogame_asset
-                    </mat-icon>
-                    Player 1
-                </mat-label>
-                <input matInput>
-            </mat-form-field>
-            <mat-form-field>
-                <mat-label>
-                    <mat-icon class="material-icons">
-                        videogame_asset
-                    </mat-icon>
-                    Player 2
-                </mat-label>
-                <input matInput>
-            </mat-form-field>
-        </div>
-    </div>
+    <initial-match-setup></initial-match-setup>
 </div>
 <div mat-dialog-actions>
     <button mat-button (click)="onAbortClick()">AbortGame</button>

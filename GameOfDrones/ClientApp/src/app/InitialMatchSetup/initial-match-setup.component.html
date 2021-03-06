@@ -1,0 +1,26 @@
+﻿<form [formGroup] = "playersForm">
+    <div class="initialSetUp">
+        <p>Please tell us the name of the people playing</p>
+        <div class="playersNameWrapper">
+            <mat-form-field>
+                <mat-label>
+                    <mat-icon class="material-icons">
+                        videogame_asset
+                    </mat-icon>
+                    Player 1
+                </mat-label>
+                <input formControlName="player1" matInput>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>
+                    <mat-icon class="material-icons">
+                        videogame_asset
+                    </mat-icon>
+                    Player 2
+                </mat-label>
+                <input formControlName="player2" matInput>
+            </mat-form-field>
+        </div>
+        <button mat-button [disabled]="!playersForm.valid" (click)="sendPlayers()">Start Game!!</button>
+    </div>
+</form>

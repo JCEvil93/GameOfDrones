@@ -6,7 +6,6 @@ import { MatDialogRef } from '@angular/material';
   templateUrl: './modal.component.html',
   styleUrls: ['./modal.component.scss']
 })
-
 export class ModalComponent {
 
   constructor(
