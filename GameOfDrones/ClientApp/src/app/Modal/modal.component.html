@@ -1,10 +1,10 @@
 ﻿<h1 mat-dialog-title>You are now playing game of drones</h1>
 <div mat-dialog-content id="container">
-    <initial-match-setup></initial-match-setup>
+    <initial-match-setup *ngIf="!isMatchStarted" (players) ="onStart($event)"></initial-match-setup>
+    <match-screen *ngIf="isMatchStarted"></match-screen>
 </div>
 <div mat-dialog-actions>
     <button mat-button (click)="onAbortClick()">AbortGame</button>
-    <!--<button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Ok</button>-->
 </div>
 
 

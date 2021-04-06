@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { ModalComponent } from './Modal/modal.component';
 import { InitialMatchSetupComponent } from './InitialMatchSetup/initial-match-setup.component';
+import { MatchScreenComponent } from './MatchScreen/match-screen.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -20,7 +21,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomeComponent,
     FetchDataComponent,
     ModalComponent,
-    InitialMatchSetupComponent
+    InitialMatchSetupComponent,
+    MatchScreenComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

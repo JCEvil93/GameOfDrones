@@ -1,0 +1,45 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{643F521B-B954-4EEA-8416-361EDCE53205}|Default">
+  <MonoDevelop.Ide.ItemProperties.GameOfDrones PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GameOfDrones/ClientApp/src/app/MatchScreen/match-screen.component.scss">
+    <Files>
+      <File FileName="GameOfDrones/ClientApp/src/app/Modal/modal.component.ts" Line="8" Column="3" />
+      <File FileName="GameOfDrones/ClientApp/src/app/Modal/modal.component.scss" />
+      <File FileName="GameOfDrones/ClientApp/src/app/nav-menu/nav-menu.component.ts" />
+      <File FileName="GameOfDrones/ClientApp/src/app/app.module.ts" />
+      <File FileName="GameOfDrones/ClientApp/src/app/home/home.component.ts" />
+      <File FileName="GameOfDrones/ClientApp/src/app/home/home.component.html" />
+      <File FileName="GameOfDrones/ClientApp/src/app/Modal/modal.component.html" Line="6" Column="67" />
+      <File FileName="GameOfDrones/ClientApp/src/app/InitialMatchSetup/initial-match-setup.component.html" Line="24" Column="105" />
+      <File FileName="GameOfDrones/ClientApp/src/app/InitialMatchSetup/initial-match-setup.component.scss" />
+      <File FileName="GameOfDrones/ClientApp/src/app/InitialMatchSetup/initial-match-setup.component.ts" Line="1" Column="1" />
+      <File FileName="GameOfDrones/ClientApp/src/app/MatchScreen/match-screen.component.ts" Line="1" Column="1" />
+      <File FileName="GameOfDrones/ClientApp/src/app/MatchScreen/match-screen.component.html" Line="1" Column="1" />
+      <File FileName="GameOfDrones/ClientApp/src/app/MatchScreen/match-screen.component.scss" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GameOfDrones" expanded="True">
+            <Node name="GameOfDrones" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="app" expanded="True">
+                    <Node name="MatchScreen" expanded="True">
+                      <Node name="match-screen.component.scss" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
